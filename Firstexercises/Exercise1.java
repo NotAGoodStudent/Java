@@ -1,8 +1,6 @@
+package Firstexercises;
 import java.util.Scanner;
 
-/**
- * Exercise1
- */
 public class Exercise1 
 
 {
