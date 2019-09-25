@@ -16,6 +16,7 @@ public class Exercise3 {
         sex = scan.nextLine();
         System.out.println("Introduce your age: ");
         age = scan.nextInt();
+        
 
         if (sex.equals("Male") && age <= 16) 
         {
@@ -45,6 +46,8 @@ public class Exercise3 {
         else if (sex.equals("Female") && age >= 65) 
         {
             System.out.format("Hi %s, you belong to the female veteran category\n", name);
+
+            
         }
 
     }
