@@ -19,7 +19,7 @@ public class Exercise6
         System.out.println("Hello and welcome to this non sense program. I hope you enjoy your stay. Jokes aside you gotta write 'setze jutges d'un jutgat menjen fetge d'un penjat");
         
         answer = scan.nextLine();
-        if(answer.equals("setze jutges d'un jutgat menjen fetge d'un penjat"))
+        if(answer.equalsIgnoreCase("setze jutges d'un jutgat menjen fetge d'un penjat"))
         {
             elapsed = System.nanoTime() - start;
             seconds = (double)elapsed / 1000000000.0;
