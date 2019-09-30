@@ -43,6 +43,7 @@ public class Exercise8 {
                 i++;
                 
                 
+                
             }
 
             findnumb = random.nextInt(20);
@@ -52,6 +53,10 @@ public class Exercise8 {
             
         }
 
+        if(counter == 0)
+        {
+            counter = 1;
+        }
         
 
         System.out.format("It took %d tries to find the number: %d and the number has repeated itself %d times out of a total of %d times\n ", counter, number, repeated, counter2);

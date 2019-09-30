@@ -1,5 +1,4 @@
 package Firstexercises;
-import java.util.Scanner;
 import java.util.Random;
 public class Exercise7 
 {
@@ -7,7 +6,6 @@ public class Exercise7
     public static void main(String[] args) 
     {
         Random random = new Random();
-        Scanner scan = new Scanner(System.in);
         int number = random.nextInt(999);
         boolean found = false;
         int counter = 0;
