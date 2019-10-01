@@ -99,78 +99,54 @@ public class Exercise9
             if(time1 < time3 && time1 < time2 && time1 < time4 && time2 < time3 && time2 < time4 && time3 < time4)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[3], time3);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                foruth = dorsals[0];
                 break;
             }
 
             else if(time1 < time4 && time1 < time2 && time1 < time3 && time4 < time2 && time4 < time3 && time2 < time3)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[2], time3);
-                foruth = dorsals[0];
                 break;
             }
 
             else if(time1 < time3 && time1 < time2 && time1 < time4 && time3 < time2 && time3 < time4 && time2 < time4)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[2], time3);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                foruth = dorsals[0];
                 break;
             }
 
             else if(time1 < time3 && time1 < time2 && time1 < time4 && time3 < time2 && time3 < time4 && time3 < time2)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[2], time3);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                foruth = dorsals[0];
                 break;
             }
 
             else if(time1 < time3 && time1 < time2 && time1 < time4 && time4 < time2 && time4 < time3 && time3 < time2)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[2], time3);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                foruth = dorsals[0];
                 break;
             }
 
             else if(time1 < time3 && time1 < time2 && time1 < time4 && time2 < time3 && time2 < time4 && time4 < time3)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[2], time3);
-                foruth = dorsals[0];
                 break;
             }
             //TWOS
@@ -178,78 +154,54 @@ public class Exercise9
             if(time2 < time3 && time2 < time1 && time2 < time4 && time1 < time3 && time1 < time4 && time3 < time4)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[2], time3);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                foruth = dorsals[0];
                 break;
             }
 
             else if(time2 < time3 && time2 < time1 && time2 < time4 && time4 < time3 && time4 < time1 && time1 < time3)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[2], time3);
-                foruth = dorsals[0];
                 break;
             }
 
             else if(time2 < time3 && time2 < time1 && time2 < time4 && time3 < time1 && time3 < time4 && time1 < time4)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[2], time3);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                foruth = dorsals[0];
                 break;
             }
 
             else if(time2 < time3 && time2 < time1 && time2 < time4 && time3 < time1 && time3 < time4 && time4 < time1)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[2], time3);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                foruth = dorsals[0];
                 break;
             }
 
             else if(time2 < time3 && time2 < time1 && time2 < time4 && time4 < time3 && time4 < time1 && time3 < time1)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[2], time3);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                foruth = dorsals[0];
                 break;
             }
 
             else if(time2 < time3 && time2 < time1 && time2 < time1 && time3 < time1 && time4 < time4 && time4 < time3)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[2], time3);
-                foruth = dorsals[0];
                 break;
             }
 
@@ -258,78 +210,54 @@ public class Exercise9
             if(time3 < time1 && time3 < time2 && time3 < time4 && time1 < time3 && time1 < time4 && time2 < time4)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[2], time3);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                foruth = dorsals[0];
                 break;
             }
 
             else if(time3 < time1 && time3 < time2 && time3 < time4 && time4 < time2 && time4 < time1 && time1 < time2)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[2], time3);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                foruth = dorsals[0];
                 break;
             }
 
             else if(time3 < time1 && time3 < time2 && time3 < time4 && time2 < time4 && time2 < time1 && time1 < time4)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[2], time3);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                foruth = dorsals[0];
                 break;
             }
 
             else if(time3 < time1 && time3 < time2 && time3 < time4 && time2 < time1 && time2 < time4 && time4 < time1)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[2], time3);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                foruth = dorsals[0];
                 break;
             }
 
             else if(time3 < time1 && time3 < time2 && time3 < time4 && time4 < time1 && time4 < time2 && time1 < time2)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[2], time3);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                foruth = dorsals[0];
                 break;
             }
 
             else if(time3 < time1 && time3 < time2 && time3 < time4 && time1 < time2 && time1 < time4 && time4 < time2)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[2], time3);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                foruth = dorsals[0];
                 break;
             }
 
@@ -338,78 +266,56 @@ public class Exercise9
             else if(time4 < time1 && time4 < time2 && time4 < time3 && time1 < time2 && time1 < time3 && time2 < time3)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[2], time3);
-                foruth = dorsals[0];
                 break;
             }
 
             else if(time4 < time1 && time4 < time2 && time4 < time3 && time3 < time2 && time3 < time1 && time1 < time2)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[2], time3);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                foruth = dorsals[0];
                 break;
             }
 
             else if(time4 < time1 && time4 < time2 && time4 < time3 && time2 < time1 && time2 < time3 && time1 < time3)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[2], time3);
-                foruth = dorsals[0];
                 break;
             }
 
             else if(time4 < time1 && time4 < time2 && time4 < time3 && time3 < time1 && time3 < time2 && time3 < time1)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[2], time3);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                foruth = dorsals[0];
+
                 break;
             }
 
             else if(time4 < time1 && time4 < time2 && time4 < time3 && time3 < time1 && time3 < time2 && time1 < time2)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[2], time3);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                foruth = dorsals[0];
                 break;
             }
 
             else if(time4 < time1 && time4 < time2 && time4 < time3 && time1 < time3 && time1 < time2 && time3 < time2)
             {
                 System.out.format("In first position we have %s with the dorsal number %d and a total time of: %.3f\n", players[3], dorsals[3], time4);
-                first = dorsals[3];
                 System.out.format("In second position we have %s with the dorsal number %d and a total time of: %.3f\n", players[0], dorsals[0], time1);
-                second = dorsals[2];
                 System.out.format("In third position we have %s with the dorsal number %d and a total time of: %.3f\n", players[2], dorsals[2], time3);
-                third = dorsals[1];
                 System.out.format("In fourth position we have %s with the dorsal number %d and a total time of: %.3f\n", players[1], dorsals[1], time2);
-                foruth = dorsals[0];
+
                 break;
             }
 
