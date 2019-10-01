@@ -19,7 +19,7 @@ public class Exercise9
         int i = 0;
         int dorsalnumb = 0;
         float time1 = 0, time2 = 0, time3 = 0, time4 = 0;
-        int first = 0, second = 0, third = 0, foruth = 0;
+
 
 
         while(counter <= 3)
