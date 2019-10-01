@@ -1,16 +1,22 @@
-
 import java.util.Random;
+
+/**
+ * Exercise8
+ */
 public class Exercise8 {
+
+    
+
     public static void main(String[] args) 
     {
-     
+
         Random random = new Random();
-        int number = random.nextInt(20);
-        int findnumb = random.nextInt(20);
+        int number = random.nextInt(20)+1;
+        int findnumb = random.nextInt(20)+1;
         int counter = 0;
         int counter2 = 0;
         int repeated = 0;
-        int[] wrongnumb = new int[40];
+        int[] wrongnumb = new int[20];
         int i = 0;
         boolean save = false;
 
@@ -46,7 +52,7 @@ public class Exercise8 {
                 
             }
 
-            findnumb = random.nextInt(20);
+            findnumb = random.nextInt(20)+1;
 
            
 
